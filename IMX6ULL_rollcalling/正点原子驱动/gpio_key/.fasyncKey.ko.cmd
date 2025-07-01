@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/gpio_key/fasyncKey.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/alientek/Desktop/gpio_key/fasyncKey.ko /home/alientek/Desktop/gpio_key/fasyncKey.o /home/alientek/Desktop/gpio_key/fasyncKey.mod.o

@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/gpio_key/gpio_key.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/alientek/Desktop/gpio_key/gpio_key.ko /home/alientek/Desktop/gpio_key/gpio_key.o /home/alientek/Desktop/gpio_key/gpio_key.mod.o

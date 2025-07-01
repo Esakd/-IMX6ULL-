@@ -1,0 +1,42 @@
+有关评论
+http://music.163.com/api/v1/resource/comments/R_SO_4_{歌曲ID}?limit=20&offset=0
+limit：返回数据条数(每页获取的数量)，默认为20，可以自行更改
+offset：偏移量(翻页)，offset需要是limit的倍数
+type：搜索的类型
+ 
+歌单
+https://music.163.com/api/playlist/detail?id={歌单ID}
+网易云音乐每日推荐各种神奇歌单也是它的一大特色，我们可以利用这个api获取歌单里的所有歌曲信息。
+ 
+用户信息
+https://music.163.com/api/v1/user/detail/{用户ID}
+ 
+歌词
+https://music.163.com/api/song/lyric?id={歌曲ID}&lv=1&kv=1&tv=-1
+ 
+搜索结果
+http://music.163.com/api/search/get/web?csrf_token=hlpretag=&hlposttag=&s={搜索内容}&type=1&offset=0&total=true&limit=20
+limit：返回数据条数（每页获取的数量），默认为20，可以自行更改
+offset：偏移量（翻页），offset需要是limit的倍数
+type：搜索的类型
+type=1           单曲
+type=10         专辑
+type=100        歌手
+type=1000      歌单
+type=1002      用户
+type=1004      MV
+type=1006      歌词
+type=1009      主播电台
+ 
+ 
+歌手专辑
+http://music.163.com/api/artist/albums/{歌手ID}?id={歌手ID}&offset=0&total=true&limit=10
+ 
+专辑信息
+http://music.163.com/api/album/{专辑ID}?ext=true&id={专辑ID}&offset=0&total=true&limit=10
+ 
+歌曲信息
+http://music.163.com/api/song/detail/?id={歌曲ID}&ids=%5B{歌曲ID}%5D
+ 
+MV
+http://music.163.com/api/mv/detail?id={MV的ID}&type=mp4

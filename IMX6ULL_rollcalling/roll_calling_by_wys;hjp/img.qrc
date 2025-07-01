@@ -1,0 +1,62 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/humidity.png</file>
+        <file>img/map.jpg</file>
+        <file>img/music.png</file>
+        <file>img/temperature.png</file>
+        <file>img/weather.jpg</file>
+        <file>img/monitor.png</file>
+        <file>img/settting.png</file>
+    </qresource>
+    <qresource prefix="/map">
+        <file>Map/img/zoom_down.png</file>
+        <file>Map/img/zoom_up.png</file>
+    </qresource>
+    <qresource prefix="/weather">
+        <file>Weather/images/lei.png</file>
+        <file>Weather/images/qing.png</file>
+        <file>Weather/images/shachen.png</file>
+        <file>Weather/images/tmp.png</file>
+        <file>Weather/images/UI.png</file>
+        <file>Weather/images/UI1.png</file>
+        <file>Weather/images/UI2.png</file>
+        <file>Weather/images/UI3.jpg</file>
+        <file>Weather/images/UI3.png</file>
+        <file>Weather/images/UI4.jpg</file>
+        <file>Weather/images/UI4.png</file>
+        <file>Weather/images/UI5.jpg</file>
+        <file>Weather/images/wu.png</file>
+        <file>Weather/images/xiaoyu.png</file>
+        <file>Weather/images/xue.png</file>
+        <file>Weather/images/yin.png</file>
+        <file>Weather/images/yu.png</file>
+        <file>Weather/images/yujiaxue.png</file>
+        <file>Weather/images/yun.png</file>
+        <file>Weather/images/zhenyu.png</file>
+    </qresource>
+    <qresource prefix="/music">
+        <file>Music/images/btn_favorite_no.png</file>
+        <file>Music/images/btn_favorite_yes.png</file>
+        <file>Music/images/btn_listcircle1.png</file>
+        <file>Music/images/btn_listcircle2.png</file>
+        <file>Music/images/btn_menu1.png</file>
+        <file>Music/images/btn_menu2.png</file>
+        <file>Music/images/btn_next1.png</file>
+        <file>Music/images/btn_next2.png</file>
+        <file>Music/images/btn_pause1.png</file>
+        <file>Music/images/btn_pause2.png</file>
+        <file>Music/images/btn_play1.png</file>
+        <file>Music/images/btn_play2.png</file>
+        <file>Music/images/btn_previous1.png</file>
+        <file>Music/images/btn_previous2.png</file>
+        <file>Music/images/btn_volume1.png</file>
+        <file>Music/images/btn_volume2.png</file>
+        <file>Music/images/cd.png</file>
+        <file>Music/images/handle.png</file>
+        <file>Music/images/mask.png</file>
+        <file>Music/images/pBtn_Search1.png</file>
+        <file>Music/images/pBtn_Search2.png</file>
+        <file>Music/images/sub-page.png</file>
+        <file>Music/style.qss</file>
+    </qresource>
+</RCC>

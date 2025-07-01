@@ -1,0 +1,82 @@
+QPushButton#pBtn_Pre
+{
+    border-image:url(:/music/Music/images/btn_previous1.png);
+}
+QPushButton#pBtn_Pre:hover
+{
+    border-image:url(:/music/Music/images/btn_previous2.png);
+}
+
+QPushButton#pBtn_Next
+{
+    border-image:url(:/music/Music/images/btn_next1.png);
+}
+QPushButton#pBtn_Next:hover
+{
+    border-image:url(:/music/Music/images/btn_next2.png);
+}
+QPushButton#pBtn_Pause::checked
+{
+    border-image:url(:/music/Music/images/btn_play1.png);
+}
+QPushButton#pBtn_Pause:hover::checked
+{
+    border-image:url(:/music/Music/images/btn_play2.png);
+}
+QPushButton#pBtn_Pause::!checked
+{
+    border-image:url(:/music/Music/images/btn_pause1.png);
+}
+QPushButton#pBtn_Pause:hover::!checked
+{
+    border-image:url(:/music/Music/images/btn_pause2.png);
+}
+QPushButton#pBtn_OpenSearchWin
+{
+    border-image:url(:/music/Music/images/pBtn_Search1.png);
+}
+QPushButton#pBtn_OpenSearchWin:hover
+{
+    border-image:url(:/music/Music/images/pBtn_Search2.png);
+}
+
+QPushButton#pBtn_SetLove:checked
+{
+    border-image:url(:/music/Music/images/btn_favorite_yes.png);
+    rotation-point:50% 50%;
+    rotation:180deg;
+}
+
+QPushButton#pBtn_SetLove:!checked
+{
+    border-image:url(:/music/Music/images/btn_favorite_no.png);
+}
+
+QPushButton#pBtn_loop:checked
+{
+    border-image:url(:/music/Music/images/btn_listcircle1.png);
+}
+QPushButton#pBtn_loop:!checked
+{
+    border-image:url(:/music/Music/images/btn_listcircle1.png);
+}
+
+QPushButton#pBtn_Loud
+{
+    border-image:url(:/music/Music/images/btn_volume2.png);
+}
+
+QPushButton#pBtn_Low
+{
+    border-image:url(:/music/Music/images/btn_volume1.png);
+}
+
+QSlider#horizontalSlider:handle:horizontal
+{
+    border-image:url(:/music/Music/images/handle.png);
+}
+
+QSlider#horizontalSlider:sub-page:horizontal
+{
+    border-image:url(:/music/Music/images/sub-page.png);
+}

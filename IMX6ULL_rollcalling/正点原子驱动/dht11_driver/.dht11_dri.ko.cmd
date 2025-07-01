@@ -1,0 +1,1 @@
+cmd_/home/alientek/Desktop/dht11_driver/dht11_dri.ko := arm-linux-gnueabihf-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/alientek/Desktop/dht11_driver/dht11_dri.ko /home/alientek/Desktop/dht11_driver/dht11_dri.o /home/alientek/Desktop/dht11_driver/dht11_dri.mod.o
